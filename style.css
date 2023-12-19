@@ -35,7 +35,7 @@ font-family: inter;
 }
 .logo {
 display: flex;
-max-width: 15rem;
+max-width: 280px;
 padding: 10px; 
 
 }
@@ -43,7 +43,7 @@ padding: 10px;
 .background {
 display: flex;
 max-width: 1920px;
-min-height: 390px;
+min-height: 700px;
 opacity: 0.9;
 
 
@@ -52,15 +52,17 @@ opacity: 0.9;
 
 display: grid;
 gap: 1rem;
-grid-template-columns: repeat(2, 1fr);
 padding: 5rem;
+
 
 
 }
 
 h1 {text-align: center;
 padding: 60px;
-font-size: 24px;}
+font-size: 32px;
+font-weight: 700px;
+}
 
 
 h2 {text-align: center;
@@ -72,12 +74,13 @@ text-align: left;
 padding: 30px;
 font-size: 18px;
 font-family: inter;
+font-weight: 600px;
 
 }
 
 form
 {
-background: rgba(79, 57, 62, 0.6); border-radius: 10px;
+background: rgba(79, 57, 62, 0.74); border-radius: 10px;
 margin: auto;
 max-width: 500px;
 padding: 30px;
