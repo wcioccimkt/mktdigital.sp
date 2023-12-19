@@ -1,0 +1,135 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+
+body {
+
+background-color: white;
+width: 100vw;
+height: 100vh;
+
+}
+
+
+header {
+display: flex;
+justify-content: center;
+justify-items: center;
+background-color: #288383;
+color: #fff;
+padding: 20px;
+
+}
+
+
+p {
+text-align: center;
+padding: 30px;
+color: black;
+font-size: 24px;
+font-family: inter;
+
+}
+.logo {
+display: flex;
+max-width: 15rem;
+padding: 10px; 
+
+}
+
+.background {
+display: flex;
+max-width: 1920px;
+min-height: 390px;
+opacity: 0.9;
+
+
+}
+.grid-container  {
+
+display: grid;
+gap: 1rem;
+grid-template-columns: repeat(2, 1fr);
+padding: 5rem;
+
+
+}
+
+h1 {text-align: center;
+padding: 60px;
+font-size: 24px;}
+
+
+h2 {text-align: center;
+padding: 60px;
+font-size: 18px;}
+
+h3 {
+text-align: left;
+padding: 30px;
+font-size: 18px;
+font-family: inter;
+
+}
+
+form
+{
+background: rgba(79, 57, 62, 0.6); border-radius: 10px;
+margin: auto;
+max-width: 500px;
+padding: 30px;
+margin-bottom:120px;
+
+
+}
+
+  input[type="text"], input[type="email"], input[type="tel"]
+  {
+    width: 100%; 
+    padding: 20px 20px;
+    margin: 12px 0;
+    box-sizing: border-box;
+    border-radius: 0px;
+    text-align: left;
+    
+    
+  }
+  
+  input[type="submit"] {
+    background-color: #238383;
+    color: white;
+    padding: 20px 20px;
+    margin:12px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 0px;
+  
+    
+  }
+
+  input[type="submit"]:hover {
+    opacity: 0.6;
+  }
+
+
+  footer {
+
+  text-align: center;
+  display: flex;
+  background-color: #4F393E;
+  padding: 10px; 
+  font-size:12px; 
+  justify-content: space-between;
+  color: white;
+  align-items: center;
+  
+
+}
+
+img  {
+  width: 100%;
+}
