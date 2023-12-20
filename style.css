@@ -29,13 +29,13 @@ p {
 text-align: center;
 padding: 30px;
 color: black;
-font-size: 24px;
+font-size: 22px;
 font-family: inter;
 
 }
 .logo {
 display: flex;
-max-width: 280px;
+max-width: 240px;
 padding: 10px; 
 
 }
@@ -43,14 +43,17 @@ padding: 10px;
 .background {
 display: flex;
 max-width: 1920px;
-min-height: 700px;
+min-height: 400px;
 opacity: 0.9;
 
 
 }
 .grid-container  {
 
-display: grid;
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
 gap: 1rem;
 padding: 5rem;
 
@@ -135,4 +138,5 @@ margin-bottom:120px;
 
 img  {
   width: 100%;
+  
 }
