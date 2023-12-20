@@ -82,6 +82,9 @@ font-weight: 600px;
 
 }
 
+a {font-size: 12px;color: white;}
+
+
 form
 {
 background: rgba(79, 57, 62, 0.74); border-radius: 10px;
