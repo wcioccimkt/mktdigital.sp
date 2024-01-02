@@ -47,7 +47,8 @@ justify-content: center;
 }
 .grid {
 display: flex;
-justify-content: center;}
+justify-content: center;
+}
 
 .grid-container {
 max-width: 1180px;
@@ -102,7 +103,7 @@ display: grid;
 justify-items: center;
 justify-content: center;
 padding: 2rem;
-max-width: 1280px;
+max-width: 1380px;
 grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
@@ -149,7 +150,7 @@ margin-bottom:120px;
   input[type="text"], input[type="email"], input[type="tel"]
   {
     width: 100%; 
-    padding: 20px 20px;
+    padding: 12px 20px;
     margin: 12px 0;
     box-sizing: border-box;
     border-radius: 0px;
