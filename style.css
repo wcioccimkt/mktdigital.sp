@@ -50,7 +50,7 @@ display: flex;
 justify-content: center;}
 
 .grid-container {
-max-width: 1080px;
+max-width: 1180px;
 }
 
 
@@ -58,7 +58,7 @@ h1 {
 text-align: center;
 padding: 2rem;
 font-size: 2rem;
-max-width:1080px;
+max-width:1180px;
 }
 
 
