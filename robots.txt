@@ -1,4 +1,5 @@
-# by Mkt Digital(C)- 2023
+#  by Mkt Digital(C)- 2023
 User-agent: *
-Disallow: 
-sitemap: https://yuny-sp.vercel.app/sitemap.xml
+Allow: /
+
+
