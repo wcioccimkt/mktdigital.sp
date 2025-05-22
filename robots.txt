@@ -1,0 +1,5 @@
+#  by Mkt Digital(C)- 2023
+User-agent: *
+Allow: /
+
+
